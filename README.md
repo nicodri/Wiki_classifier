@@ -12,11 +12,13 @@ Thank you for reading me, I hope you will enjoy it and feel free to reach me wit
 
 ## Let's try it!
 
-### Required Libraries
+### Required environment
 
 Python environment:
 
 Python 2.7.11 :: Anaconda 2.4.1 (x86_64)
+
+Libraries:
 
 * re
 * requests
