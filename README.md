@@ -14,6 +14,18 @@ Thank you for reading me, I hope you will enjoy it and feel free to reach me wit
 
 ### Required Libraries
 
+Python environment:
+
+Python 2.7.11 :: Anaconda 2.4.1 (x86_64)
+
+* re
+* requests
+* numpy
+* pattern
+* pyquery
+* sklearn
+
+
 ### Example
 
 The main.py script in the src contains the code to classify entry and retrieve information if needed. To use it you just need to call it from the command-line with your list of urls as argument. It will load the pre-trained model, classify your entry and print the results.
