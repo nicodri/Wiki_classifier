@@ -2,11 +2,9 @@
 
 ## Introduction
 
-This project is about building a classifier to detect pages on disease from wikipedia pages and when a disease is detected to extract information about it (name, cause, features ...).
+Personal project of a few days to build a classifier from scratch able to detect Wikipedia pages about a disease and to retrieve information about it when detected (name, cause, features ...).
 
-This folder contains my exploratory analysis in a ipython notebook (`Disease_classification.ipynb`) and a ready-to-use classifier in the `/src` folder. The entire code to build and train the model is provided in the notebook but with the tight timeframe I decided only to pretrain a model and to provide a classification script. The outputs of the cell are provided as they contain meaningful information (accuracy of different model that I tried or I tuned). The python script uses a pre-trained classifier stored in the folder `/model_v1` and `/model_v2`. Several libraries are required and then it is possible to classify a wikipedia page based on its url, and to retrieve relevant information about it if classified as a disease.
-
-Follow a part on how to use the python script to classify and one explaining my approach in details.
+This folder contains my exploratory analysis in a ipython notebook (`Disease_classification.ipynb`) and a ready-to-use classifier in the `/src` folder. The entire code to build and train the model is provided in the notebook. The python script uses a pre-trained classifier stored in the folder `/model_v1` and `/model_v2`. Several libraries are required and then it is possible to classify a wikipedia page based on its url, and to retrieve relevant information about it if classified as a disease.
 
 Thank you for reading me, I hope you will enjoy it and feel free to reach me with any questions or thoughts!
 
@@ -41,6 +39,8 @@ Arguments to provide:
 [required]: space separated urls to classify (unlimited number)
 
 [optional]: --model [2] or 1, to chose the model (by default 2), 1 is the first version (without extension of the training set by drugs pages) and 2 the second version (with extension)
+
+[optional]: --verbose [false] or true, to print the relevant extracted information in case of a positive page
 
 ## Approach
 
